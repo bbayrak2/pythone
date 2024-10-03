@@ -1,0 +1,16 @@
+git add = statuse eklemek
+git commit -m "" add den sonraki işlem
+git log = commitleri gösterir
+git checkout  b3034ce66907c507041d7b677da7269a1b460996 -- . = bu ıd deki commandı getir
+git diff = değişiklikleri gösterir
+git checkout -- index.py = index.py deki değişiklikleri geri alır
+git reset HEAD index.py = index.py yi add arenasından geri alır
+git rm file = file silindi
+git rm -r folder/ = folder (klasör) silindi
+git mv eski_isim yeni_isim = isim değiştirme
+git mv file dosya/ = file dosyaya geçti
+git config --global alians.kısaltma normal_durum = değişgen tanımlamış gibi kodları kısaltabilir
+git remote add origin https://github.com/bbayrak2/pythone.git = hesba bağlama 
+git push -u origin master = github hesabına dosyaları aktarmak
+git pull = github dan dosya çekmek
+touch .gitignore = paylaşılmak istenmeyen dosyaların adının yazılıcağı dosya isimin başına ! koyulursa işlevsiz hale gelir
